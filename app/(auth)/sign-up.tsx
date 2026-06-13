@@ -135,7 +135,6 @@ export default function SignUpScreen() {
                 <Image
                     source={require("../../assets/images/kribb.png")}
                     className="w-36 h-16 mb-8"
-                    resizeMode="contain"
                 />
                 <Text className="text-3xl font-bold text-gray-800 mb-2">
                     Create account
