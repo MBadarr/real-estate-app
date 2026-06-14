@@ -63,7 +63,7 @@ export default function SignInScreen() {
                         console.log(session?.currentTask);
                         return;
                     }
-                    const url = decorateUrl("/");
+                const url = decorateUrl("/");
                     router.replace(url as any);
                 },
             });
@@ -80,7 +80,6 @@ export default function SignInScreen() {
                 <Image
                     source={require("../../assets/images/kribb.png")}
                     className="w-32 h-16 mb-8"
-                    resizeMode="contain"
                 />
                 <Text className="text-2xl font-bold text-gray-800 mb-2">
                     Verify your account
@@ -136,7 +135,6 @@ export default function SignInScreen() {
                 <Image
                     source={require("../../assets/images/kribb.png")}
                     className="w-36 h-16 mb-8"
-                    resizeMode="contain"
                 />
                 <Text className="text-3xl font-bold text-gray-800 mb-2">
                     Welcome back
