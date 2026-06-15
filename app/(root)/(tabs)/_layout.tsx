@@ -14,6 +14,7 @@ export default function TabLayout() {
             <Tabs.Screen name="search" />
             <Tabs.Screen name="saved" />
             <Tabs.Screen name="profile" />
+            <Tabs.Screen name="create" options={{ href: null }} />
         </Tabs>
     );
 }
